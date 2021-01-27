@@ -97,8 +97,8 @@ function check_input_all() {
 				}
 				else if (obj_input.button_c)
 				{
-					obj_inventory_select_square.x = 300
-					obj_inventory_select_square.y = 10
+					//obj_inventory_select_square.x = 300
+					//obj_inventory_select_square.y = 30
 					global.inventory_menu_location = "MAGIC_BUTTON_MAPPING";
 				
 				
@@ -125,10 +125,10 @@ function check_input_all() {
 					instance_destroy(obj_selection_arrow)
 				
 				}	
-				else if (obj_input.button_c)
+				else if (obj_input_menu.button_c)
 				{
-					obj_inventory_select_square.x = 270
-					obj_inventory_select_square.y = 30
+					//obj_inventory_select_square.x = 270
+					//obj_inventory_select_square.y = 30
 					global.inventory_menu_location = "MAGIC_BUTTON_MAPPING";
 				
 				
@@ -159,8 +159,8 @@ function check_input_all() {
 				}
 				else if (obj_input.button_c)
 				{
-					obj_inventory_select_square.x = 300
-					obj_inventory_select_square.y = 10
+					//obj_inventory_select_square.x = 300
+					//obj_inventory_select_square.y = 30
 					global.inventory_menu_location = "MAGIC_BUTTON_MAPPING";
 				
 				
@@ -172,15 +172,32 @@ function check_input_all() {
 	 { 
 		 
 		 case "MAGIC_BUTTON_MAPPING":
-		 {
+		 {	
+			 obj_inventory_select_square.x = 319
+			 obj_inventory_select_square.y = 30
+			 
 			if(obj_input.left)	 
 		    {
 				obj_inventory_select_square.x = 304
-				obj_inventory_select_square.y = 157
+				obj_inventory_select_square.y = 30
 				if(obj_input.button_a)
 				{
+					var it = 0;
 					
+
+
+                    while (it<ds_grid_width(global.attack_items))
+					{   it ++;
+						if(global.attack_items[# it, 0 ] == 1)
+						count += 1;
+						
+					}
 					
+						if (count == 2)
+						{
+							show_message(count);
+						
+						}
 				}
 			 
 			 
@@ -188,7 +205,7 @@ function check_input_all() {
 			 else if(obj_input.right)
 			 {
 				 obj_inventory_select_square.x = 334
-				 obj_inventory_select_square.y = 157
+				 obj_inventory_select_square.y = 30
 			 
 			 }
 			 else if (obj_input_menu.button_b)
@@ -202,7 +219,7 @@ function check_input_all() {
 			 else
 			 {
 				  obj_inventory_select_square.x = 319
-				 obj_inventory_select_square.y = 157
+				 obj_inventory_select_square.y = 30
 			 
 			 }
 		 

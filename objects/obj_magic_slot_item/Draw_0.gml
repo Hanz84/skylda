@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var iid = global.attack_items[# var_slot, 0];
+var iid = global.attack_items[# var_slot, 0]; // initiated in 
 
 var description = global.attack_items[# var_slot, 1]
 global.attack_items[# 1,1] = "Anal";

@@ -58,6 +58,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_insectenemy","path":"objects/obj_insectenemy/obj_insectenemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":160.0,"resourceVersion":"1.0","name":"inst_5CD973DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_insectenemy","path":"objects/obj_insectenemy/obj_insectenemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":112.0,"resourceVersion":"1.0","name":"inst_4D423D77","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bolt_attack","path":"objects/obj_bolt_attack/obj_bolt_attack.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":96.0,"resourceVersion":"1.0","name":"inst_6632AABC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Object73","path":"objects/Object73/Object73.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":128.0,"resourceVersion":"1.0","name":"inst_51460D1D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Houses_tileset","path":"tilesets/Houses_tileset/Houses_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":24,"SerialiseHeight":14,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -87,7 +88,7 @@
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/Startingroom/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_290D3122","path":"rooms/Startingroom/Startingroom.yy",},
@@ -131,6 +132,7 @@
     {"name":"inst_4D423D77","path":"rooms/Startingroom/Startingroom.yy",},
     {"name":"inst_6632AABC","path":"rooms/Startingroom/Startingroom.yy",},
     {"name":"inst_51394751","path":"rooms/Startingroom/Startingroom.yy",},
+    {"name":"inst_51460D1D","path":"rooms/Startingroom/Startingroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

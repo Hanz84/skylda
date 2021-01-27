@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_inventory_mouse","path":"objects/obj_inventory_mouse/obj_inventory_mouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":448.0,"resourceVersion":"1.0","name":"inst_766E4AC3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Object73","path":"objects/Object73/Object73.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_448AFE24","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_Inventory","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_menucollide","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -29,6 +30,7 @@
   "instanceCreationOrder": [
     {"name":"inst_766E4AC3","path":"rooms/Room_Inventory/Room_Inventory.yy",},
     {"name":"inst_64BFEEF9","path":"rooms/Room_Inventory/Room_Inventory.yy",},
+    {"name":"inst_448AFE24","path":"rooms/Room_Inventory/Room_Inventory.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -3,6 +3,7 @@
 
 
 	
+	
 	if(global.menu_active)
 	{
 		
@@ -26,6 +27,7 @@
 	 else
 	 {
 		 draw_self();
+		 retval = draw_wrapped_colored_text(x,y,"Fucktoy",55)
 		 
 	 }
 	         

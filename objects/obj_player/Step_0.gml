@@ -1,7 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(currentroom == 5)
+
+{
+	
 
 
+
+
+
+
+}
 if (currentroom != Startingroom)
 {
 	currentroom = room

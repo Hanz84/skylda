@@ -23,8 +23,12 @@ menu_select = 1;
 game_start = true;
 playerSlot = 1;
 dialogue = [];
+
+
 dialogue_line = 0;
 count = 0;
-dialogue_script("hello");
-dialogue_script("i love you");
+dialogue_script("helloaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", true);
+dialogue_script("yaay chardonnay",true);
+
+//dialogue_script("i love youaaaaaaaaa aaaaaaaaafgbfgbfgaaaaaaaaaaaaaaaaaaaaaaa ",false);
 start_dialogue(self,0);

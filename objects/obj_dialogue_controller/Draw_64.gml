@@ -6,7 +6,7 @@ if (!fetch )
 	draw_set_font(obj_gold_font);
 	
 	var x_offset = 0
-	if(dialogue_avatar != "")
+	if(dialogue_avatar != "") 
 	if(dialogue_left_facing)
 	{
 		x_offset = -32;
@@ -23,10 +23,13 @@ if (!fetch )
 	var ypos = camera_get_view_height(view_camera[0]) + 70;
 	draw_set_halign(fa_left);
 	draw_sprite(spr_dialogue_box,0,xpos,ypos);
-	draw_text_ext(xpos + 10,ypos + 6,string_hash_to_newline(dialogue_output),16,175);
+		draw_text_ext(xpos + 10,ypos + 6,string_hash_to_newline(dialogue_output),16,175);
+
 	
 	
-}
 	
+	
+
+}	
 	
 	

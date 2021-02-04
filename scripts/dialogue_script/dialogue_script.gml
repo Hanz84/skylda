@@ -16,6 +16,7 @@ function dialogue_script(){
 	dialogue_part[3] = dialogue_left_facing;
 	
 	dialogue[dialogue_line] = dialogue_part;
+	
 	dialogue_line += 1;
 	
 	

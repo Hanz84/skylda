@@ -19,6 +19,16 @@ if (obj_input.start)
 
 	
    {
+	   	  
+				 
+				 with(obj_player)
+				 selection_position_m_item = 0;
+				 
+				 obj_inventory_select_square.x = obj_slot.x;
+				 obj_inventory_select_square.y = obj_slot.y;
+				  global.menu_select = 0;
+				 
+				 
 		global.inventory_menu_location = "NOT_MENU";
 		global.inventory_select = false;
 	   with(obj_player)

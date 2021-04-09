@@ -50,8 +50,9 @@ var menu_items = 0;
 		 menu_items++;
  }
 //instance_create_layer(obj_start.x,obj_start.y+10,"Instances_room1", obj_intro);
+instance_create_layer(obj_start.x,obj_start.y+10,"Instances_room1", obj_game_progression_logic);
 instance_create_layer(obj_start.x,obj_start.y+10,"Instances_room1", obj_player);
-instance_create_depth(obj_start.x,obj_start.y+10,-1,obj_player);
+
 instance_create_layer(x,y,"Instances_room1",obj_input);
 instance_create_layer(x,y,"Instances_room1",obj_input_menu);
 	
@@ -100,7 +101,7 @@ while (slot < ds_grid_width(global.inventory)) // Create inventory items and set
  slot ++;
  }
  item_add_auto(item.health_drink,2);
-instance_create_layer(obj_slot.x,obj_slot.y,"Instances_Inventory",obj_inventory_select_square)
+instance_create_layer(obj_slot.x,obj_slot.y,"Instances_inventory",obj_inventory_select_square)
 //global.item_index[1,item_stat.description] = "A serviceable sword made from crude iron";
 //global.item_index[1,item_stat.name] =  "Shortsword";                                         
 //global.item_index[2,item_stat.name] =  "Bomb!";

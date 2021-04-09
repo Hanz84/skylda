@@ -1,4 +1,4 @@
-function check_input_all() {
+ function check_input_all() {
 
 
 		 if(global.menu_active)
@@ -73,7 +73,7 @@ function check_input_all() {
 			}
 		
 		}	
-		if(global.inventory_select && global.inventory_menu_location != 1)
+		if(global.inventory_select && global.inventory_menu_location == "MENU")
 		{
 		
 			if(obj_inventory_select_square.x >100)
@@ -170,33 +170,138 @@ function check_input_all() {
 	switch (global.inventory_menu_location)
 	 
 	 { 
+		
+		 
 		 
 		 case "MAGIC_BUTTON_MAPPING":
-		 {	
-			 obj_inventory_select_square.x = 319
-			 obj_inventory_select_square.y = 30
+		 {
+			  
+			 if (instance_exists(obj_inventory_select_square) && selection_position_m_item == 0)
+			{
+				 instance_deactivate_object(obj_inventory_select_square);
+				newselect =  instance_create_layer(obj_magic_slot_item.x+32,obj_magic_slot_item.y+6,"Instances_menucollide",obj_inventory_select_square)
+				selection_position_m_item =  1;
+				break;
+			}
+			
+			
+			
+			if(variable_instance_exists(obj_magic_slot_item,"iexist"))
+			 {
+				 
+				 
+				 if(obj_input_menu.right)
+				 {
+					 obj_inventory_select_square.x = obj_magic_slot_item.x + 54;
+					 selection_position_m_item = 2;
+				 }
+				if(selection_position_m_item == 1)
+				 {
+					 
+					 if(obj_input_menu.button_a)
+					 {
+						 global.inventory_menu_location = "MAGIC_BUTTON_MAPPING_SELECT";
+						 break;
+						 
+					 }
+					 
+				 }
+				 else if(selection_position_m_item == 2)
+				 {
+					 	 if(obj_input_menu.button_a)
+					 {
+						 global.inventory_menu_location = "MAGIC_BUTTON_MAPPING_SELECT";
+						 break;
+						 
+					 }
+					 
+					 
+					 
+				 }
+				 else if(obj_input_menu.start){
+				 
+				 selection_position_m_item = 0;
+				 global.inventory_menu_location = "MENU"
+				 obj_inventory_select_square.x = obj_slot.x;
+				 obj_inventory_select_square.y = obj_slot.y;
+				  global.menu_select = 0;
+				   break;
+				 }
+					 
+					 
+			 }
+			
+			break;
 			 
-			if(obj_input.left)	 
+			 
+			 
+		 }
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 case "MAGIC_BUTTON_MAPPING_SELECT":
+		 {	
+		
+			
+			
+					 
+			 if(obj_input.left)	 
 		    {
+				
 				obj_inventory_select_square.x = 304
 				obj_inventory_select_square.y = 30
-				if(obj_input.button_a)
+				if(obj_input.button_a )
 				{
-					var it = 0;
 					
-
-
-                    while (it<ds_grid_width(global.attack_items))
-					{   it ++;
-						if(global.attack_items[# it, 0 ] == 1)
-						count += 1;
-						
-					}
-					
-						if (count == 2)
+					if (selection_position_m_item == 1)
 						{
-							show_message(count);
+							if(slot1_set == magicslots.lightning)
+								{
+										show_debug_message("yaaay")
+									break;
+								}
+								else if (slot1_set == magicslots.cloud ){
+										
+										
+										instance_destroy(object1);
+										
+										show_debug_message("kuken");
+										object1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+								        slot1_set = magicslots.lightning;
+							            object1.var_slot = 1;
+										menu_item_once = true;
+										
+										break;
+											
+								}
+									
+									
 						
+						}
+						else if(selection_position_m_item == 2 ){
+									
+									if(instance_number(object1)<= 1){ // set var slot check to 2 to create correct item
+								 object1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+								slot1_set = magicslots.cloud;
+								
+							object1.var_slot = 2;
+							break;
+									}
+									
 						}
 				}
 			 
@@ -206,22 +311,90 @@ function check_input_all() {
 			 {
 				 obj_inventory_select_square.x = 334
 				 obj_inventory_select_square.y = 30
-			 
+				 if(obj_input.button_a )
+				{
+					
+					
+                   
+
+                    
+					
+						if (selection_position_m_item == 1)
+						{
+							if(slot1_set == magicslots.lightning)
+								{
+										
+									
+								}
+								else if (slot1_set == magicslots.cloud){
+										
+										
+										
+										instance_destroy(item1);
+										var item1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+							            slot1_set = magicslots.lightning;
+							            item1.var_slot = 1;
+									
+									
+								}
+								
+								
+								
+								
+								else{
+								
+								var item1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+							
+							item1.var_slot = 1;
+								
+								
+								
+								
+								}
+							
+								
+							
+						
+						}
+						else if(selection_position_m_item == 2){
+																
+									
+								var item2 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+								slot1_set = magicslots.cloud
+							item2.var_slot = 2;
+							
+							
+						}
+				}
 			 }
 			 else if (obj_input_menu.button_b)
 			 {
-				 global.inventory_menu_location = 0;
+				 
+				 global.inventory_menu_location = "MENU"
 				 obj_inventory_select_square.x = obj_slot.x;
 				 obj_inventory_select_square.y = obj_slot.y;
 				 global.menu_select = 0;
-
+				 selection_position_m_item = 0;
+				 instance_destroy(newselect);
+				 instance_activate_object(obj_inventory_select_square);
+				  break;
+			 }else if(obj_input_menu.start){
+				 
+				 selection_position_m_item = 0;
+				 global.inventory_menu_location = "MENU"
+				 obj_inventory_select_square.x = obj_slot.x;
+				 obj_inventory_select_square.y = obj_slot.y;
+				  global.menu_select = 0;
+				   break;
 			 }
 			 else
 			 {
+				  menu_item_once = false;
 				  obj_inventory_select_square.x = 319
 				 obj_inventory_select_square.y = 30
-			 
+			 break;
 			 }
+		
 		 
 			}
 			case "NOT_MENU":
@@ -231,7 +404,14 @@ function check_input_all() {
 			if (obj_input.right) state = "MOVE_RIGHT";
 			if(obj_input.left) state = "MOVE_LEFT";
 			if(obj_input.up) state = "UP";
-			//if(obj_input.button_b) state = "LIGHTNING_ATTACK";
+			
+			if(obj_input.button_b && slot1_set == magicslots.cloud)
+			{
+			
+				state = "ATTACK_START";
+			
+			}
+			else if(obj_input.button_b && slot1_set == magicslots.lightning) state = "LIGHTNING_ATTACK";
 			if(obj_input.button_a) state = "ATTACK_START";
 		
 			if(!obj_input.right && !obj_input.left&&! obj_input.up&& !obj_input.down&& !obj_input.button_a &&!obj_input.button_b&&!obj_input.button_c&&!obj_input.select) state = "IDLE";

@@ -7,3 +7,4 @@ with(obj_player)
 	
 }
 global.inventory_select = true;
+global.inventory_menu_location = "MENU"

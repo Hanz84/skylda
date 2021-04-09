@@ -33,6 +33,7 @@ else
 dialogue_output = string_copy(dialogue_text,1,dialogue_output_speed);
 dialogue_output_speed += 0.8
 
+
 }
 
 

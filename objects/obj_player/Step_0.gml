@@ -1,5 +1,49 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
+
+
+
+if(currentroom == Room_Inventory){
+	
+		  if(obj_input_menu.start){
+				 
+				 selection_position_m_item = 0;
+				 global.inventory_menu_location = "MENU"
+				 obj_inventory_select_square.x = obj_slot.x;
+				 obj_inventory_select_square.y = obj_slot.y;
+				  global.menu_select = 0;
+				   
+				 }
+	
+}
+	
+if(currentroom == Startingroom ){
+	
+switch(dialogue_progression)
+{
+	
+	case "first_act":
+	
+	{
+		
+		if(do_once)
+		{
+			start_dialogue(self,-1);
+			do_once = false;
+		}
+		else{
+			
+			
+			
+		}
+	
+	  break;
+	}
+	
+}
+}
 if(currentroom == 5)
 
 {
@@ -154,7 +198,7 @@ switch (state)
 	case "MOVE_RIGHT":
 	{	
 		facing = 1
-		image_speed = anim_speed;
+		image_speed = 2;
 		spr_walk = spr_player_side;
 		spr_attack = spr_player_attack_side;
 		sprite_index = spr_walk;
@@ -168,7 +212,7 @@ switch (state)
 	case "MOVE_LEFT":
 	{	
 		facing = 3;
-		image_speed = anim_speed;
+		image_speed = 2;
 		image_xscale = -1;
 		
 		spr_walk = spr_player_side;

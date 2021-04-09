@@ -7,7 +7,7 @@ switch (pressed)
 
 {
 	case "yes":
-	{
+	{   
 		get_dialogue()
 		
 		
@@ -16,6 +16,17 @@ switch (pressed)
 }
 if(obj_input.button_a)
 {
-	pressed = "yes";
 	
+	
+	      if(dialogue_continue)
+		  {
+		  dialogue_line += 1;
+		  pressed = "yes";
+		fetch = true;
+		  }else
+		  {
+			instance_destroy();  
+			  
+		  }
+		
 }

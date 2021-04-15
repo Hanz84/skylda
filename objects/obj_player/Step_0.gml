@@ -110,7 +110,7 @@ switch (state)
 	
 	{
 		sprite_index = spr_attack;
-		image_speed = 0;
+		image_index = 0
 		vx = 0;
 		vy = 0;
 		timer = 15;
@@ -122,7 +122,8 @@ switch (state)
 		
 		{	
 			if (timer == 8) 
-			{
+			{ 
+				image_index = 1;
 				switch (facing) 
 				{
 					case (0):

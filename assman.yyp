@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_dialogue_logic","path":"objects/obj_dialogue_logic/obj_dialogue_logic.yy",},"order":3,},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},"order":0,},
+    {"id":{"name":"spr_lighningcrab_attack","path":"sprites/spr_lighningcrab_attack/spr_lighningcrab_attack.yy",},"order":9,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":1,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":2,},
     {"id":{"name":"spr_player_attack_side","path":"sprites/spr_player_attack_side/spr_player_attack_side.yy",},"order":3,},
@@ -307,7 +308,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "assman",

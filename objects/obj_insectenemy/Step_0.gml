@@ -151,31 +151,7 @@ switch (state)
 			}	
 				
 		} 
-		if (place_meeting(x,y,obj_sword)&& x < obj_player.x) // check if enemy get hit by sword and if enemy is left or right from player
-		{
-			x -= 2;
-		 if (place_meeting(x,y, obj_solid))// after knockback check if enemy colliding and stuck revert to old position if so
-		 {
-			 
-			 x += 2
-		 }
-		 
-		}
-		else if(place_meeting(x,y,obj_sword) && x > obj_player.x)
 		
-		{
-			x += 2
-		
-			if (place_meeting(x,y, obj_solid))
-		 {
-			 
-			 x -= 2
-		 }
-		 
-		 
-		 
-		}
-	
 
 	
 	

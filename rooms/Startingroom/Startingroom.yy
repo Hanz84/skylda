@@ -60,6 +60,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bolt_attack","path":"objects/obj_bolt_attack/obj_bolt_attack.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":96.0,"resourceVersion":"1.0","name":"inst_6632AABC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_resolution_scale","path":"objects/obj_resolution_scale/obj_resolution_scale.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":128.0,"resourceVersion":"1.0","name":"inst_51460D1D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enum_magicslot","path":"objects/obj_enum_magicslot/obj_enum_magicslot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":80.0,"resourceVersion":"1.0","name":"inst_11884F81","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":336.0,"y":96.0,"resourceVersion":"1.0","name":"inst_39FF8A8A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lightning_crab_enemy","path":"objects/obj_lightning_crab_enemy/obj_lightning_crab_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":160.0,"resourceVersion":"1.0","name":"inst_60F2D472","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Houses_tileset","path":"tilesets/Houses_tileset/Houses_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":24,"SerialiseHeight":14,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -135,6 +137,8 @@
     {"name":"inst_51394751","path":"rooms/Startingroom/Startingroom.yy",},
     {"name":"inst_51460D1D","path":"rooms/Startingroom/Startingroom.yy",},
     {"name":"inst_11884F81","path":"rooms/Startingroom/Startingroom.yy",},
+    {"name":"inst_39FF8A8A","path":"rooms/Startingroom/Startingroom.yy",},
+    {"name":"inst_60F2D472","path":"rooms/Startingroom/Startingroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

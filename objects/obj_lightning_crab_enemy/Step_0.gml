@@ -6,8 +6,41 @@
 
 
 event_inherited();
+if(place_meeting(x,y,obj_player))
+{
+	 if (direction > 315 and direction <= 360)  {
+    //x=x+1
+	//y = 0;
+	vx= 0.5;
+	vy = 0;
+    canmove=false
+		
 
-if (distance_to_object(obj_player)<50  )
+    
+    }
+
+else if (direction >= 1 and direction < 45) {
+    //x=x+1
+	//y = 0;
+	vx= 0.5;
+	vy = 0;
+	
+		
+
+    canmove=false
+   
+    }
+	else 
+	{
+		
+
+state = "ATTACKING";
+	}
+	
+
+	
+}
+else if (distance_to_object(obj_player)<50  )
 {
 	
 	state = "HOMING_IN";
@@ -119,8 +152,40 @@ if(check_collision_all(cx,cy,obj_solid))
 	{
 		vx = 0;
 		vy = 0;
-		image_speed = 0.5
+		image_speed = 0.1
 		sprite_index = spr_lighningcrab_attack;
+		
+		if(position_facing == "UP")
+		{
+		
+		if(irandom(300)<2 )
+		{
+			if(!instance_exists(obj_lightning_crab_projectile))
+				instance_create_layer(x,y-16,"Instances_room1",obj_lightning_crab_projectile);
+				
+				with(obj_lightning_crab_projectile)
+				image_angle = 0;
+			
+			
+		}
+		}
+		else if(position_facing == "LEFT")
+		{
+			if(irandom(300)<2 )
+		{
+			if(!instance_exists(obj_lightning_crab_projectile))
+				instance_create_layer(x-16,y,"Instances_room1",obj_lightning_crab_projectile);
+				with(obj_lightning_crab_projectile)
+				image_angle = 90;
+				
+			
+			
+			
+		}
+		
+			
+		}
+		
 		
 		
 		
@@ -134,23 +199,64 @@ if(check_collision_all(cx,cy,obj_solid))
 		{
 			direction = point_direction(x, y, obj_player.x, obj_player.y)   // get direction of the player
 
-if (direction >= 45 and direction <= 145)  { 
+
+
+if(vx > 0 && vy > 0){
+	
+	vx = 0;
+	vy = 0;
+	
+	
+}
+
+if(direction >45 && direction<145)
+{
+	
+	image_angle = 0;
+	position_facing = "UP";
+	
+}
+if(direction >225 && direction < 315){
+	
+	image_angle = 180;
+	position_facing = "RIGHT";
+	
+	
+}
+if(direction > 160 && direction <= 210){
+	
+	position_facing = "LEFT";
+	image_angle = 90;
+	
+	
+}
+if(direction == 0 || direction > 340 && direction <360 || direction > 0 && direction < 20)
+{
+	image_angle = 270;
+	position_facing = "RIGHT";
+	
+}
+
+ if (direction >= 45 and direction <= 145)  { 
    // y=-y-1
 	//x = 0;
 	vx= 0;
 	vy = -0.5;
     canmove=false
-	image_angle = 90
+	
+
      
     }
 
-if (direction >= 225 and direction <= 315) {
+else if (direction >= 225 and direction <= 315) {
     //y=y+1
 	//x = 0;
 	vx= 0;
 	vy = 0.5;
     canmove=false
-		image_angle = 180
+		
+	
+		
 
     
     }
@@ -161,29 +267,36 @@ else if (direction > 145 and direction <= 315)  {
 	vx= -0.5;
 	vy = 0;
     canmove=false
-	image_angle = 0 ;
+	
+		
+
+	
     
     }
 
-if (direction > 315 and direction <= 360)  {
+else if (direction > 315 and direction <= 360)  {
     //x=x+1
 	//y = 0;
 	vx= 0.5;
 	vy = 0;
     canmove=false
-	image_angle = 270
+		
+
     
     }
 
-if (direction >= 0 and direction <= 45) {
+else if (direction >= 0 and direction < 45) {
     //x=x+1
 	//y = 0;
 	vx= 0.5;
 	vy = 0;
-	image_angle = 0;
+	
+		
+
     canmove=false
    
     }
+
 	
 			cx = vx;
 				cy = vy;

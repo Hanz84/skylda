@@ -17,3 +17,4 @@ state = "MOVING";
 facing = enum_facing.up;
 sprite_index = spr_lighningcrab_up;
 done = false;
+position_facing = "NONE";

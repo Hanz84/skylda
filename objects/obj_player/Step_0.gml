@@ -365,9 +365,34 @@ if (invincibility > 0)
  }
 
 var inst = instance_place(x,y,obj_room_transition);
-if (inst != noone)
+if (inst != noone && obj_player.x > 300)
 {
 	room_goto(inst.targetroom);
+	transition = true;
+	 goright = true;
+}
+else if(inst != noone && obj_player.x < 60)
+{
+	room_goto(inst.targetroom);
+	transition = true;
+	goleft = true;
+	
+}
+if(transition && goright )
+{
+	x=40
+	y=140
+	transition = false;
+	goright = false
+	
+}
+if(transition && goleft )
+{
+	x=320
+	y=140
+	transition = false;
+	goleft = false;
+	
 }
 
 }

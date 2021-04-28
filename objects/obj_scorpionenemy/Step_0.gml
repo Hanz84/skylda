@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
              
-			 
+	event_inherited()		 
 	switch(state)
 	{
 		case "MOVING" :
@@ -10,7 +10,7 @@
 			{
 				case enum_facing.down:
 				{
-					sprite_index = spr_scorpionenemy_side
+					sprite_index = spr_boss_cyclope_walk
 					image_speed = 0.6;
 					vy = enemy_speed;
 					vx = 0;
@@ -27,7 +27,7 @@
 				}
 				case enum_facing.up:
 				{
-					sprite_index = spr_scorpionenemy_side
+					sprite_index = spr_boss_cyclope_walk
 					image_speed = 0.6;
 					vy = -1 * enemy_speed;
 					vx = 0;
@@ -55,7 +55,7 @@
 		case "ATTACKING" :
 		{
 			vy = 0;
-			sprite_index = spr_scorpionenemy_attack_side;
+			sprite_index = spr_boss_cyclope_attack;
 			image_speed = 0.1;
 			if(image_index > 3)
 			{

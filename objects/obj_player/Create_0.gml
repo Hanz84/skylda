@@ -35,7 +35,9 @@ selection_position_m_item = 0;
 slot1_set = magicslots.none
 slot2_set = magicslots.none
 object1 = false;
-
+transition = false;
+goleft = true;
+goright = true;
 
 dialogue_script("Hej gumman!", true);
 dialogue_script("C:/Bilder",true);

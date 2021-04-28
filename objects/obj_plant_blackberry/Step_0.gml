@@ -15,7 +15,7 @@ if (ready_for_harvest)
 	
 }
 		
-if (ready_for_harvest == false) 
+else if (ready_for_harvest == false) 
 {
 	if (irandom(800000) + growthratio > 800000)
 	{

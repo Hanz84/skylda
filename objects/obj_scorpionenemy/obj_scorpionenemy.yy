@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_scorpionenemy_side",
-    "path": "sprites/spr_scorpionenemy_side/spr_scorpionenemy_side.yy",
+    "name": "spr_boss_cyclope_walk",
+    "path": "sprites/spr_boss_cyclope_walk/spr_boss_cyclope_walk.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_scorpionenemy","path":"objects/obj_scorpionenemy/obj_scorpionenemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_scorpionenemy","path":"objects/obj_scorpionenemy/obj_scorpionenemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -24,7 +24,7 @@
 			else if (location == 0)
 			{
 			    
-			
+				   
 				if (obj_input_menu.button_a && global.begin_intro == false)
 				{
 					global.begin_intro = true;
@@ -280,10 +280,18 @@
 										instance_destroy(object1);
 										
 										show_debug_message("kuken");
-										object1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
-								        slot1_set = magicslots.lightning;
+										object1 = instance_create_layer(294,20,"Instances_Inventory",obj_magic_slot_item);
+								       with(obj_magic_slot_item)
+								{
+									depth = -100	
+								}
+								
+									   
+									   
+									   slot1_set = magicslots.lightning;
 							            object1.var_slot = 1;
 										menu_item_once = true;
+										
 										
 										break;
 											
@@ -295,7 +303,13 @@
 						else if(selection_position_m_item == 2 ){
 									
 									if(instance_number(object1)<= 1){ // set var slot check to 2 to create correct item
-								 object1 = instance_create_layer(294,20,"Instances_menucollide",obj_magic_slot_item);
+								 object1 = instance_create_layer(294,20,"Instances_Inventory",obj_magic_slot_item);
+								with(obj_magic_slot_item)
+								{
+									depth = -100	
+								}
+								
+								
 								slot1_set = magicslots.cloud;
 								
 							object1.var_slot = 2;

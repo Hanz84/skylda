@@ -36,8 +36,8 @@ else if(obj_input.button_a && intro_sequence == 3)
 		
 	}
 	global.menu_active = false; 
-	global.currentroom = 5;
-room_goto(5);
+	global.currentroom = Startingroom;
+room_goto(Startingroom);
 }
 
 

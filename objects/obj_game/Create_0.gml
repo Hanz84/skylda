@@ -2,6 +2,7 @@
 // You can write your code in this editor
 scale = 7;
 anal = 0;
+oldroom = 0;
 instance_create_layer(x,y,"Instances_room1",InputForPlayer1);
 //resolution_scaling();
 global.hours = 0;
@@ -9,6 +10,7 @@ global.rain = false;
 global.rain_timer = 0;
 global.menu_active = false;
 global.currentroom = room;
+global.previous_room = 5;
 global.game_start = true;
 global.moveinmenu = false;
 global.begin_intro = false;
@@ -22,6 +24,8 @@ global.player_learned_lightning = true;
 global.inventory_menu_location = "NOT_MENU";
 global.pad_number = 0;
 global.change_buttonlayout = false;
+
+
 //instance_create_layer("Instances_menu",obj_intro_picture)
 //instance_create_depth(window_get_width(),window_get_height(),+1,obj_intro_picture)
 var menu_items = 0;

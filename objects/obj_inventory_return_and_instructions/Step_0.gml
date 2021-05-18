@@ -17,7 +17,8 @@ with(obj_rain_cycle)
 
 if (obj_input.start)
 
-	
+					
+
    {
 	   	  
 				 
@@ -35,7 +36,7 @@ if (obj_input.start)
 	   {
 			instance_destroy(obj_wall_player)
 			image_alpha = 1;   
-			    room_goto(currentroom); 
+			    room_transfer(global.previous_room); 
 		   
 		   
 	   }

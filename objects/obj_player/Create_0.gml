@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 depth = -1;
+
+menu_return_to_room = Startingroom;
 menu_item_once = false;
 item1 = false;
 pad = 0;

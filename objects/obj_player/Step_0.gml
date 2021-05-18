@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if(menu_return_to_room != Room_Inventory)
+{
+	menu_return_to_room = room;
+	
+}
 
 
 
@@ -16,6 +20,16 @@ if(currentroom == Room_Inventory){
 				  global.menu_select = 0;
 				   
 				 }
+	
+}
+if (currentroom != Startingroom)
+{
+	currentroom = room
+	oldroom = currentroom
+}
+else
+{
+	currentroom = oldroom;
 	
 }
 	
@@ -44,27 +58,8 @@ switch(dialogue_progression)
 	
 }
 }
-if(currentroom == 5)
-
-{
-	
 
 
-
-
-
-
-}
-if (currentroom != Startingroom)
-{
-	currentroom = room
-	oldroom = currentroom
-}
-else
-{
-	currentroom = oldroom;
-	
-}
 if(currentroom == 5 && game_start == true)
 {
 	
@@ -79,7 +74,7 @@ anim_speed = 1.4;
 	
 	
 
-if (global.currentroom == 0 && global.game_start)
+if (global.currentroom == Room_Main_Menu && global.game_start)
 {
 	obj_player.x = obj_start.x;
 	obj_player.y = obj_start.y + 10;
@@ -91,7 +86,7 @@ if (global.currentroom == 0 && global.game_start)
 	
 	
 }
- if (global.game_start == false && global.currentroom == 0)
+ if (global.game_start == false && global.currentroom == Room_Main_Menu)
 {
 	
 	

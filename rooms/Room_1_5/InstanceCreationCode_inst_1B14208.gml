@@ -1,1 +1,1 @@
-targetroom = Startingroom;
+targetroom = Room_1_6;

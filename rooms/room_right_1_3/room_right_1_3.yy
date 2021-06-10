@@ -39,7 +39,7 @@
     {"tilesetId":{"name":"Desert_tileset","path":"tilesets/Desert_tileset/Desert_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":7,"TileSerialiseData":[
 100,100,100,100,102,103,100,100,101,101,102,103,
 124,120,120,122,122,120,120,121,122,123,124,124,
-123,2,2,143,2,143,2,142,2,2,2,123,
+123,2,2,143,2,143,2,142,2,2,2,171,
 2,2,2,2,2,2,2,2,2,2,2,2,
 140,2,2,142,2,143,2,142,2,2,2,140,
 160,2,2,2,2,2,2,2,2,2,2,160,
@@ -48,11 +48,11 @@
     {"tilesetId":{"name":"Desert_tileset","path":"tilesets/Desert_tileset/Desert_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":7,"TileSerialiseData":[
 27,27,27,27,27,27,27,27,27,27,27,27,
 2,2,2,2,2,2,2,2,2,2,2,2,
-3,4,3,2,2147483648,2,4,2,88,2147483648,4,88,
+3,4,3,2,2147483648,2,4,2,88,2147483648,2,2,
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 2,2147483648,2147483648,2,2147483648,2,2147483648,2,2147483648,2147483648,2147483648,2,
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-2147483648,2,2,2,2147483648,2,2,2147483648,2,2,2147483648,2147483648,
+2147483648,2,2,2,15,2,2,15,2,2,15,2147483648,
 ],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles_2","tags":[],"resourceType":"GMRTileLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],

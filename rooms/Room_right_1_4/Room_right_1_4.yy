@@ -32,10 +32,10 @@
     {"tilesetId":{"name":"Desert_tileset","path":"tilesets/Desert_tileset/Desert_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":7,"TileSerialiseData":[
 100,101,102,103,100,101,102,103,100,101,102,103,
 120,121,122,123,120,121,122,123,120,121,122,123,
-163,163,163,163,163,163,163,163,163,2,163,124,
-163,163,163,141,163,163,163,163,141,2,2,163,
-163,163,163,163,163,163,163,163,163,2,2,163,
-140,161,162,163,140,145,144,144,146,144,145,140,
+2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,141,2,2,2,2,141,2,2,163,
+2,2,2,2,2,2,2,2,2,2,2,100,
+140,161,2,2,140,145,144,144,146,144,145,151,
 160,181,141,141,160,121,122,123,123,120,121,160,
 ],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles_1","tags":[],"resourceType":"GMRTileLayer",},
     {"tilesetId":{"name":"Desert_tileset","path":"tilesets/Desert_tileset/Desert_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":7,"TileSerialiseData":[

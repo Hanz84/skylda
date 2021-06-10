@@ -5,6 +5,8 @@ function smooth_move() {
 	_vy = argument[1];
 	
 	
+	
+	
 		var sweep_interval = 10;
 	    if(_vx>_vy)
 		{
@@ -40,8 +42,8 @@ function smooth_move() {
 	        for ( var multiplier = -1; multiplier <= 1; multiplier += 2)
 			{      
 	            var angle_to_check = angle*multiplier;
-	            xtarg = x+lengthdir_x(1, angle_to_check);
-	            ytarg = y+lengthdir_y(1, angle_to_check);     
+	            xtarg = x-lengthdir_x(1, angle_to_check);
+	            ytarg = y-lengthdir_y(1, angle_to_check);     
             
 				if !(place_meeting(xtarg, ytarg, obj_solid))
 	

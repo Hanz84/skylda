@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var next = false; // fisbacon
+ // fisbacon
 
 
 switch (pressed)

@@ -32,7 +32,11 @@ else
 	currentroom = oldroom;
 	
 }
-	
+	if (currentroom == Room_text_intro)
+	{
+		instance_destroy();
+		
+	}
 if(currentroom == Startingroom ){
 	
 switch(dialogue_progression)
@@ -45,6 +49,7 @@ switch(dialogue_progression)
 		if(do_once)
 		{
 			start_dialogue(self,-1);
+			
 			do_once = false;
 		}
 		else{

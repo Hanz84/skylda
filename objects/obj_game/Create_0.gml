@@ -24,6 +24,7 @@ global.player_learned_lightning = true;
 global.inventory_menu_location = "NOT_MENU";
 global.pad_number = 0;
 global.change_buttonlayout = false;
+global.progression_dungeon = "";
 
 
 //instance_create_layer("Instances_menu",obj_intro_picture)

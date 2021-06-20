@@ -13,8 +13,8 @@ event_inherited();
 
 	
 	
-
-	
+if(place_meeting(x,y,obj_player))
+	global.progression_main_char = "first_act"
 
  if (distance_to_object(obj_player)<200  )
 {
@@ -317,7 +317,7 @@ vy = 0.5;
     //}
 
 	
-			cx = vx;
+				cx = vx;
 				cy = vy;
 				newvx = round(cx);
 				newvy = round(cy);

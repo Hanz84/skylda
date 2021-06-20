@@ -1,7 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
-
-depth = -1;
+// You can write your code in thi
 
 menu_return_to_room = Startingroom;
 menu_item_once = false;
@@ -41,5 +39,7 @@ transition = false;
 goleft = true;
 goright = true;
 
+
 dialogue_script("Hej gumman!", true);
-dialogue_script("C:/Bilder",true);
+dialogue_script("C:/Bilder",false);
+

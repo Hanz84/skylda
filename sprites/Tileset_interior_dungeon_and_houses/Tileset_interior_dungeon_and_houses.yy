@@ -10,7 +10,7 @@
   "bbox_left": 0,
   "bbox_right": 1023,
   "bbox_top": 0,
-  "bbox_bottom": 335,
+  "bbox_bottom": 360,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd0f9a0e-b37c-4aa3-bdb5-548c2086fd17","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd0f9a0e-b37c-4aa3-bdb5-548c2086fd17","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":{"name":"e93db6ba-d8c3-4f7b-b028-b595a8404f46","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"bd0f9a0e-b37c-4aa3-bdb5-548c2086fd17","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":{"name":"f109e8ec-49e4-461c-933a-a773a45eaa92","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4dd51265-6fa1-4e76-8901-7a624fc670d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd0f9a0e-b37c-4aa3-bdb5-548c2086fd17","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"29e6b643-667e-450a-bfa7-b31072896fa6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e93db6ba-d8c3-4f7b-b028-b595a8404f46","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f109e8ec-49e4-461c-933a-a773a45eaa92","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

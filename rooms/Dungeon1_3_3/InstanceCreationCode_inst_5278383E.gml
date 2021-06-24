@@ -1,1 +1,1 @@
-targetroom = Startingroom;
+targetroom = Dungeon1_3_2

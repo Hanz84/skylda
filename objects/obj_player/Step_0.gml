@@ -7,7 +7,134 @@ if(menu_return_to_room != Room_Inventory)
 	
 }
 
-
+	if(place_meeting(x+1,y,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x-1,y,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x,y+1,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x,y-1,obj_lightning_crab_projectile2)  && obj_input.button_c)
+	{
+		hit = true;
+		with(obj_lightning_crab_projectile2)
+		{
+			
+			projectile_speed = 0;
+			
+			
+			}
+			if(facing == 0)
+			{
+				
+				with(obj_lightning_crab_projectile2)
+		    {
+			
+			x = obj_player.x
+			y = obj_player.y -6;
+			
+			
+			}
+			
+			}
+			 else if (facing = 2 && place_meeting(x,y,obj_player))
+			 {
+				 
+				 with(obj_lightning_crab_projectile2)
+		     {
+			
+			x = obj_player.x
+			y = obj_player.y +6;
+			
+			
+			 }
+				
+			
+			 }
+					 else if (facing = 1 && place_meeting(x,y,obj_player))
+			 {
+				 
+				 with(obj_lightning_crab_projectile2)
+		     {
+			
+			x = obj_player.x+6
+			y = obj_player.y;
+			
+			
+			 }
+				
+			
+			 }
+					 else if (facing = 3 && place_meeting(x,y,obj_player))
+			 {
+				 
+				 with(obj_lightning_crab_projectile2)
+		     {
+			
+			x = obj_player.x-6;
+			y = obj_player.y ;
+			
+			
+			 }
+				
+			
+			 }
+				
+			}
+			if (hit)
+			{
+				
+			if(facing == 0)
+			{
+				
+				with(obj_lightning_crab_projectile2)
+		    {
+			
+			x = obj_player.x
+			y = obj_player.y -6;
+			
+			
+			}
+			
+			}
+			if(facing == 1)
+			{
+				
+				with(obj_lightning_crab_projectile2)
+		    {
+			
+			x = obj_player.x-6;
+			y = obj_player.y ;
+			
+			
+			}
+			
+			}
+			if(facing == 2)
+			{
+				
+				with(obj_lightning_crab_projectile2)
+		    {
+			
+			x = obj_player.x
+			y = obj_player.y +6;
+			
+			
+			}
+			
+			}
+			if(facing == 3)
+			{
+				
+				with(obj_lightning_crab_projectile2)
+		    {
+			
+			x = obj_player.x-6;
+			y = obj_player.y 
+			
+			
+			}
+			
+			}
+				
+				
+				
+			}
+		
+	
 
 if(currentroom == Room_Inventory){
 	
@@ -196,6 +323,7 @@ switch (state)
 		break;
 	
 	}
+
 	case "MOVE_RIGHT":
 	{	
 		facing = 1
@@ -365,34 +493,64 @@ if (invincibility > 0)
  }
 
 var inst = instance_place(x,y,obj_room_transition);
-if (inst != noone && obj_player.x > 300)
+if (inst != noone && obj_player.x > 260 )
 {
 	room_goto(inst.targetroom);
 	transition = true;
 	 goright = true;
 }
-else if(inst != noone && obj_player.x < 60)
+else if(inst != noone && obj_player.x < 80 )
 {
 	room_goto(inst.targetroom);
 	transition = true;
 	goleft = true;
 	
 }
+ else if (inst != noone && obj_player.y < 60 && obj_player.y > 0)
+{
+	room_goto(inst.targetroom);
+transition = true;
+goup = true;
+	
+	
+	
+}
+else if (inst != noone && obj_player.y > 130 && obj_player.y < 216)
+{
+	room_goto(inst.targetroom);
+	transition = true;
+	godown = true;
+	
+	
+	
+}
 if(transition && goright )
 {
-	x=40
-	y=140
+	x=45
+	y=108
 	transition = false;
 	goright = false
 	
 }
-if(transition && goleft )
+else if(transition && goleft )
 {
-	x=320
-	y=140
+	x=325
+	y=108
 	transition = false;
 	goleft = false;
 	
 }
 
+else if(transition && goup)
+{	x = 192
+	y = 174
+	transition = false;
+	goup = false;
+}
+else if(transition && godown)
+{	x = 192
+	y = 46
+	transition = false;
+	godown = false;
+}
 }

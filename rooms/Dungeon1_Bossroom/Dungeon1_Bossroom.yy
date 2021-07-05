@@ -132,8 +132,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "DUNGEON1",
+    "path": "folders/Rooms/DUNGEON1.yy",
   },
   "resourceVersion": "1.0",
   "name": "Dungeon1_Bossroom",

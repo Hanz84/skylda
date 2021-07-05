@@ -92,8 +92,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "OVERWORLD MAPS",
+    "path": "folders/Rooms/OVERWORLD MAPS.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room_1_6",

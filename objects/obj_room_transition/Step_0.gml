@@ -8,8 +8,7 @@ if (place_meeting(x,y,obj_player))
 	room_goto(targetroom);
 	with(obj_player)
 	{
-		x = 40
-		y = 150;
+		
 		
 	}
 	

@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":{"name":"f109e8ec-49e4-461c-933a-a773a45eaa92","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"81d936e2-9d6f-48a9-927a-8a34644f0c9d","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"81d936e2-9d6f-48a9-927a-8a34644f0c9d","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"LayerId":{"name":"3362c455-51de-4a12-aa90-391988b89c8f","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","name":"81d936e2-9d6f-48a9-927a-8a34644f0c9d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Tileset_interior_dungeon_and_houses","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"29e6b643-667e-450a-bfa7-b31072896fa6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f055495-00d3-44ba-83a5-f0324f10c5e3","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ebb4424-1a8b-415d-beea-5f01349784cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81d936e2-9d6f-48a9-927a-8a34644f0c9d","path":"sprites/Tileset_interior_dungeon_and_houses/Tileset_interior_dungeon_and_houses.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f109e8ec-49e4-461c-933a-a773a45eaa92","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3362c455-51de-4a12-aa90-391988b89c8f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

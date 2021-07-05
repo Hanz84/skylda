@@ -38,8 +38,9 @@ object1 = false;
 transition = false;
 goleft = true;
 goright = true;
-
-
+godown = true;
+goup = true;
+hit = false;
 dialogue_script("Hej gumman!", true);
 dialogue_script("C:/Bilder",false);
 

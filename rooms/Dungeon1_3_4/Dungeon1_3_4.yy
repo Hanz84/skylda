@@ -15,7 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9.0,"y":108.0,"resourceVersion":"1.0","name":"inst_5278383E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":180.220474,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":31.0000381,"y":121.0,"resourceVersion":"1.0","name":"inst_54EE04EF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":180.220474,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":31.0000381,"y":121.0,"resourceVersion":"1.0","name":"inst_54EE04EF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Dungeon_and_houses_tileset","path":"tilesets/Dungeon_and_houses_tileset/Dungeon_and_houses_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":24,"SerialiseHeight":14,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,838,839,2147483648,2147483648,838,839,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -96,8 +96,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "DUNGEON1",
+    "path": "folders/Rooms/DUNGEON1.yy",
   },
   "resourceVersion": "1.0",
   "name": "Dungeon1_3_4",

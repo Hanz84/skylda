@@ -28,7 +28,7 @@ else if(obj_input.button_a && intro_sequence == 3)
 	
 	with(obj_player)
 	{	
-		obj_player.x = 50 	obj_player.y = 120 //sets player starting position after intro
+		obj_player.x = 50 	obj_player.y = 100 //sets player starting position after intro
 		sprite_index = spr_player_side 
 		location = 32; // breaks the intro select loop
 		depth = -100; // sets depth higher than background

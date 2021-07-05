@@ -20,5 +20,14 @@ if(!flame_start)
 	flame_start = true;
 	
 }
+if(once == false)
+{
+instance_create_layer(364,118,"Instances_room1",obj_room_transition_dungeon1_secret_room);
 
+once = true;
+var lay_id = layer_get_id("Tiles_3");
+var map_id = layer_tilemap_get_id(lay_id);
+tilemap_set(map_id, 396, 22, 5);
+tilemap_set(map_id, 396, 22, 6);
+}
 }

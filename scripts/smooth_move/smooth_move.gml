@@ -4,8 +4,10 @@ function smooth_move() {
 	_vx = argument[0];
 	_vy = argument[1];
 	
+
+
 	
-	
+	{
 	
 		var sweep_interval = 10;
 	    if(_vx>_vy)
@@ -61,6 +63,7 @@ function smooth_move() {
 					}
 		}
 	
+	}
 
 
 }

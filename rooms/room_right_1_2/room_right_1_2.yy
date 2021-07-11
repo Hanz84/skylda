@@ -24,6 +24,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_32","path":"objects/obj_wall_32/obj_wall_32.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":6.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":96.0,"resourceVersion":"1.0","name":"inst_39876154","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_test","path":"objects/obj_wall_test/obj_wall_test.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":23.4375,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.5,"y":50.0,"resourceVersion":"1.0","name":"inst_35A73E90","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_test","path":"objects/obj_wall_test/obj_wall_test.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":13.25,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":264.0,"y":210.0,"resourceVersion":"1.0","name":"inst_26185BE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lightning_crab_projectile2","path":"objects/obj_lightning_crab_projectile2/obj_lightning_crab_projectile2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,"resourceVersion":"1.0","name":"inst_596270DE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":132.0,"resourceVersion":"1.0","name":"inst_F5B9F92","tags":[],"resourceType":"GMRInstance",},
@@ -66,6 +67,7 @@
     {"name":"inst_39876154","path":"rooms/room_right_1_2/room_right_1_2.yy",},
     {"name":"inst_35A73E90","path":"rooms/room_right_1_2/room_right_1_2.yy",},
     {"name":"inst_26185BE","path":"rooms/room_right_1_2/room_right_1_2.yy",},
+    {"name":"inst_596270DE","path":"rooms/room_right_1_2/room_right_1_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

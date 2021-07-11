@@ -6,134 +6,7 @@ if(menu_return_to_room != Room_Inventory)
 	menu_return_to_room = room;
 	
 }
-
-	if(place_meeting(x+1,y,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x-1,y,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x,y+1,obj_lightning_crab_projectile2) && obj_input.button_c || place_meeting(x,y-1,obj_lightning_crab_projectile2)  && obj_input.button_c)
-	{
-		hit = true;
-		with(obj_lightning_crab_projectile2)
-		{
-			
-			projectile_speed = 0;
-			
-			
-			}
-			if(facing == 0)
-			{
-				
-				with(obj_lightning_crab_projectile2)
-		    {
-			
-			x = obj_player.x
-			y = obj_player.y -6;
-			
-			
-			}
-			
-			}
-			 else if (facing = 2 && place_meeting(x,y,obj_player))
-			 {
-				 
-				 with(obj_lightning_crab_projectile2)
-		     {
-			
-			x = obj_player.x
-			y = obj_player.y +6;
-			
-			
-			 }
-				
-			
-			 }
-					 else if (facing = 1 && place_meeting(x,y,obj_player))
-			 {
-				 
-				 with(obj_lightning_crab_projectile2)
-		     {
-			
-			x = obj_player.x+6
-			y = obj_player.y;
-			
-			
-			 }
-				
-			
-			 }
-					 else if (facing = 3 && place_meeting(x,y,obj_player))
-			 {
-				 
-				 with(obj_lightning_crab_projectile2)
-		     {
-			
-			x = obj_player.x-6;
-			y = obj_player.y ;
-			
-			
-			 }
-				
-			
-			 }
-				
-			}
-			if (hit)
-			{
-				
-			if(facing == 0)
-			{
-				
-				with(obj_lightning_crab_projectile2)
-		    {
-			
-			x = obj_player.x
-			y = obj_player.y -6;
-			
-			
-			}
-			
-			}
-			if(facing == 1)
-			{
-				
-				with(obj_lightning_crab_projectile2)
-		    {
-			
-			x = obj_player.x-6;
-			y = obj_player.y ;
-			
-			
-			}
-			
-			}
-			if(facing == 2)
-			{
-				
-				with(obj_lightning_crab_projectile2)
-		    {
-			
-			x = obj_player.x
-			y = obj_player.y +6;
-			
-			
-			}
-			
-			}
-			if(facing == 3)
-			{
-				
-				with(obj_lightning_crab_projectile2)
-		    {
-			
-			x = obj_player.x-6;
-			y = obj_player.y 
-			
-			
-			}
-			
-			}
-				
-				
-				
-			}
-		
+projectile_stuck_and_shoot(obj_lightning_crab_projectile2)
 	
 
 if(currentroom == Room_Inventory){
@@ -156,6 +29,7 @@ if (currentroom != Startingroom)
 }
 else
 {
+	
 	currentroom = oldroom;
 	
 }

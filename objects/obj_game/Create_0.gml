@@ -25,6 +25,7 @@ global.inventory_menu_location = "NOT_MENU";
 global.pad_number = 0;
 global.change_buttonlayout = false;
 global.progression_dungeon = "";
+global.projectile_stuck_on_shield = false;
 
 
 //instance_create_layer("Instances_menu",obj_intro_picture)

@@ -41,6 +41,10 @@ goright = true;
 godown = true;
 goup = true;
 hit = false;
+launched = false;
+wait_for_projectile_launch = false;
+launch = false;
+timer_projectile_stuck_before_explode = 0;
 dialogue_script("Hej gumman!", true);
 dialogue_script("C:/Bilder",false);
 

@@ -28,9 +28,21 @@ if(place_meeting(x,y,obj_bolt_attack))
 	
 }
 
-if (place_meeting(x,y,obj_sword)&& x < obj_player.x) // check if enemy get hit by sword and if enemy is left or right from player
+if (place_meeting(x,y,obj_sword) || place_meeting(x,y,obj_lightning_crab_projectile2 ) && global.projectile_stuck_on_shield = false && x < obj_player.x) // check if enemy get hit by sword and if enemy is left or right from player
 		{
 			x -= 2;
+			if (iframes == 0)
+{
+	iframes = 30;
+	hp -= other.damage;
+	
+	
+	
+	
+
+}
+instance_destroy(obj_lightning_crab_projectile2);
+
 		 if (place_meeting(x,y, obj_solid))// after knockback check if enemy colliding and stuck revert to old position if so
 		 {
 			 
@@ -38,10 +50,20 @@ if (place_meeting(x,y,obj_sword)&& x < obj_player.x) // check if enemy get hit b
 		 }
 		 
 		}
-		else if(place_meeting(x,y,obj_sword) && x > obj_player.x)
+		else if(place_meeting(x,y,obj_sword) || place_meeting(x,y,obj_lightning_crab_projectile2 ) && global.projectile_stuck_on_shield = false && x > obj_player.x)
 		
 		{
 			x += 2
+						if (iframes == 0)
+{
+	iframes = 30;
+	hp -= other.damage;
+	
+	
+	
+	
+
+}
 		
 			if (place_meeting(x,y, obj_solid))
 		 {
@@ -52,6 +74,11 @@ if (place_meeting(x,y,obj_sword)&& x < obj_player.x) // check if enemy get hit b
 		 
 		 
 		}
+
+		
+		
+		
+		
 		if(place_meeting(x,y,obj_sword)){
 if (iframes == 0)
 {

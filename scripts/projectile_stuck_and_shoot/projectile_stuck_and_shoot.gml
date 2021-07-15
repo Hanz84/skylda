@@ -87,7 +87,7 @@ function projectile_stuck_and_shoot(){
 				
 				with(projectile)
 		    {
-			
+			image_angle = 0
 			x = obj_player.x
 			y = obj_player.y -9;
 			
@@ -101,7 +101,7 @@ function projectile_stuck_and_shoot(){
 				
 				with(projectile)
 		    {
-			
+			image_angle = 270
 			x = obj_player.x+9;
 			y = obj_player.y ;
 			
@@ -115,7 +115,7 @@ function projectile_stuck_and_shoot(){
 				
 				with(projectile)
 		    {
-			
+			image_angle = 180
 			x = obj_player.x
 			y = obj_player.y +9;
 			
@@ -128,7 +128,7 @@ function projectile_stuck_and_shoot(){
 				
 				with(projectile)
 		    {
-			
+			image_angle = 90
 			x = obj_player.x-9;
 			y = obj_player.y 
 			
@@ -234,5 +234,5 @@ function projectile_stuck_and_shoot(){
 			}
 		
 	
-
+exit;
 }

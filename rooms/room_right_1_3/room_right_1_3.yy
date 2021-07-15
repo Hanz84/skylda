@@ -37,8 +37,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":116.0,"resourceVersion":"1.0","name":"inst_138B22C7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Desert_tileset","path":"tilesets/Desert_tileset/Desert_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":7,"TileSerialiseData":[
-100,100,100,100,102,103,100,100,101,101,102,103,
-124,120,120,122,122,120,120,121,122,123,124,124,
+100,101,102,103,100,101,102,103,100,101,102,103,
+120,121,122,123,120,121,122,123,120,121,122,123,
 123,2,2,143,2,143,2,142,2,2,2,171,
 2,2,2,2,2,2,2,2,2,2,2,2,
 140,2,2,142,2,143,2,142,2,2,2,140,

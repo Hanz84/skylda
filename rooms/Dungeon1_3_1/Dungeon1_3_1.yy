@@ -14,10 +14,10 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":96.0,"resourceVersion":"1.0","name":"inst_5278383E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5278383E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":48.0,"resourceVersion":"1.0","name":"inst_61D95AD8","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":-89.63994,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":127.79892,"y":183.79953,"resourceVersion":"1.0","name":"inst_9873C28","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":83.0,"resourceVersion":"1.0","name":"inst_61D95AD8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":-89.63994,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":207.899139,"y":183.79953,"resourceVersion":"1.0","name":"inst_9873C28","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":189.0,"y":189.0,"resourceVersion":"1.0","name":"inst_4E2D313D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":374.0,"y":103.0,"resourceVersion":"1.0","name":"inst_2C17640D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_room1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Dungeon_and_houses_tileset","path":"tilesets/Dungeon_and_houses_tileset/Dungeon_and_houses_tileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":24,"SerialiseHeight":14,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,838,839,2147483648,2147483648,838,839,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -73,10 +73,10 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5278383E","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
-    {"name":"inst_5278383E","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
     {"name":"inst_61D95AD8","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
     {"name":"inst_9873C28","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
+    {"name":"inst_4E2D313D","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
+    {"name":"inst_2C17640D","path":"rooms/Dungeon1_3_1/Dungeon1_3_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

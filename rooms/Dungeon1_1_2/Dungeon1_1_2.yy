@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_interactive_button_pole","path":"objects/obj_interactive_button_pole/obj_interactive_button_pole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":128.0,"resourceVersion":"1.0","name":"inst_370E3176","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_interactive_button_pole","path":"objects/obj_interactive_button_pole/obj_interactive_button_pole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":32.0,"resourceVersion":"1.0","name":"inst_button1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":78.0,"resourceVersion":"1.0","name":"inst_459A4B57","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_dungeon_door_rock","path":"objects/obj_dungeon_door_rock/obj_dungeon_door_rock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":179.960434,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":29.0,"y":110.022095,"resourceVersion":"1.0","name":"inst_7B2D454F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":374.0,"y":95.0,"resourceVersion":"1.0","name":"inst_DA33413","tags":[],"resourceType":"GMRInstance",},
@@ -74,7 +74,7 @@
   "creationCodeFile": "${project_dir}/rooms/Dungeon1_1_2/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_370E3176","path":"rooms/Dungeon1_1_2/Dungeon1_1_2.yy",},
+    {"name":"inst_button1","path":"rooms/Dungeon1_1_2/Dungeon1_1_2.yy",},
     {"name":"inst_459A4B57","path":"rooms/Dungeon1_1_2/Dungeon1_1_2.yy",},
     {"name":"inst_7B2D454F","path":"rooms/Dungeon1_1_2/Dungeon1_1_2.yy",},
     {"name":"inst_DA33413","path":"rooms/Dungeon1_1_2/Dungeon1_1_2.yy",},

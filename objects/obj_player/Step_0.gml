@@ -6,7 +6,9 @@ if(menu_return_to_room != Room_Inventory)
 	menu_return_to_room = room;
 	
 }
+projectile_stuck_and_shoot(obj_projectile_to_hit_lever)
 projectile_stuck_and_shoot(obj_lightning_crab_projectile2)
+
 	
 
 if(currentroom == Room_Inventory){
@@ -400,7 +402,7 @@ else if (inst != noone && obj_player.y > 130 && obj_player.y < 216)
 }
 if(transition && goright )
 {
-	x=45
+	x=50
 	y=108
 	transition = false;
 	goright = false
@@ -408,7 +410,7 @@ if(transition && goright )
 }
 else if(transition && goleft )
 {
-	x=325
+	x=318
 	y=108
 	transition = false;
 	goleft = false;
@@ -417,13 +419,13 @@ else if(transition && goleft )
 
 else if(transition && goup)
 {	x = 192
-	y = 174
+	y = 160
 	transition = false;
 	goup = false;
 }
 else if(transition && godown)
 {	x = 192
-	y = 46
+	y = 52
 	transition = false;
 	godown = false;
 }

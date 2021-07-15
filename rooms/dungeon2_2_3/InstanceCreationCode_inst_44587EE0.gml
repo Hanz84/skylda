@@ -1,0 +1,1 @@
+targetroom = dungeon2_2_4;

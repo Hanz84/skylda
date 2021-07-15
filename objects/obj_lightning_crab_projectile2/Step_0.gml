@@ -5,6 +5,5 @@ y += projectile_speed2;
 
 if(place_meeting(x,y,obj_solid || place_meeting(x,y,obj_parent_enemy)))
 {
-	instance_destroy(self);	
-	
+	image_speed = 2
 }

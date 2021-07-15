@@ -11,3 +11,19 @@ timer_projectile_stuck_before_explode = 0;
 
 
 }
+if(x<160 && y>50 && y<170)
+{
+	
+	image_angle = 270
+	projectile_speed = -2
+	
+}
+else if (x>160 && y>50 && y<170)
+{
+	
+	projectile_speed = 2
+	
+	image_angle = 90
+	
+	
+}

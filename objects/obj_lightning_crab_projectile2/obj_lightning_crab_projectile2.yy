@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lightningcrab_attack",
-    "path": "sprites/spr_lightningcrab_attack/spr_lightningcrab_attack.yy",
+    "name": "spr_lever_projectile_and_explotion",
+    "path": "sprites/spr_lever_projectile_and_explotion/spr_lever_projectile_and_explotion.yy",
   },
   "solid": false,
   "visible": true,

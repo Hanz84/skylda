@@ -191,28 +191,28 @@ if(check_collision_all(cx,cy,obj_solid))
 	
 
 
-if(direction >45 && direction<160)
+if(direction >45 && direction<135)
 {
 	
 	image_angle = 0;
 	position_facing = "UP";
 	
 }
-if(direction >225 && direction < 340){
+if(direction >225 && direction < 315){
 	
 	image_angle = 180;
 	position_facing = "RIGHT";
 	
 	
 }
-if(direction > 160 && direction <= 210){
+if(direction > 135 && direction <= 225){
 	
 	position_facing = "LEFT";
 	image_angle = 90;
 	
 	
 }
-if(direction == 0 || direction > 340 && direction <360 || direction > 0 && direction < 45)
+if( direction > 315 && direction <=360 || direction > 0 && direction < 45)
 {
 image_angle = 270;
 	position_facing = "RIGHT";
